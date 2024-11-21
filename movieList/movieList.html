@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List of Movies</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+    <!-- Navbar -->
+    <section>
+        <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand d-md-none" href="#">
+                    <span><img src="images/popcorn-svgrepo-com.svg" alt="Blockbuster"></span>
+                    Aperture
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav  flex-grow-1 justify-content-between">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">
+                                <img src="../images/popcorn-svgrepo-com.svg" alt="Blockbuster" width="35px">
+                            </a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../movieList/movieList.html">Movies</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../about/about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../login/index.html">Sign Up</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../checkout/checkout.html">
+                                <img src="../images/cart-white.png" alt="shopping-cart" width="35px">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+    <!-- Movie List -->
+    <section class="movies p-5" id="movies" margin="20px">
+        <div class="grid">
+            <div class="row">
+                <h2>Action</h2>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/king.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Kingsman is a stylish spy flick where a young recruit navigates a world of espionage, blending humor, action, and impeccable suave sophistication.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/avengers.jpg" alt="Minions" class="image">
+                    <div class="overlay">
+                        <div class="text">Avengers: Infinity War unites Marvel's iconic heroes in a desperate battle against Thanos, as he seeks to wield the Infinity Stones and alter the fate of the universe.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/die.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Die Hard follows a New York cop battling terrorists in a Los Angeles skyscraper on Christmas Eve, defining the action movie genre with its relentless thrills and iconic hero.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/tenet.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Tenet delves into a mind-bending espionage plot involving time inversion, weaving a complex narrative where the protagonist fights to prevent a global catastrophe.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/gitg2.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Guardians of the Galaxy unites a ragtag group of misfits in a cosmic adventure, blending humor, heart, and an iconic '70s soundtrack while they defend the galaxy against a destructive threat.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Adventure</h2>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/avatar.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Avatar ventures into a mesmerizing alien world where a paralyzed Marine finds purpose, sparking a conflict between exploitation and preservation of a mystical civilization.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/indiana.jpg" alt="Minions" class="image">
+                    <div class="overlay">
+                        <div class="text">Indiana Jones epitomizes thrilling archaeology adventures, following the iconic Dr. Jones as he races against villains to uncover ancient artifacts, filled with action, wit, and daring escapades.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/brave.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Braveheart portrays the legendary Scottish warrior William Wallace leading a rebellion against English rule, embodying valor, sacrifice, and the fight for freedom in a visually epic historical drama.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/stardust.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Stardust is a whimsical fantasy tale where a young man ventures into a magical realm to retrieve a fallen star, discovering love, danger, and his own destiny along the way.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/inter.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Interstellar follows a group of astronauts on an intergalactic mission to find a new habitable planet, exploring the complexities of time, love, and the survival of humanity in a visually stunning and thought-provoking sci-fi odyssey.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Animation</h2>
+                <div class="col-md-2 container">
+                        <img src="../images/movies/WALL-E_LazMarquez_LR.png" alt="Wall-E" class="image">
+                        <div class="overlay">
+                            <div class="text">Wall-E follows a lonely robot's quest for love amidst a desolate, trash-filled Earth, sparking hope for humanity's revival through his heartwarming journey</div>
+                        </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/minions.jpg" alt="Minions" class="image">
+                    <div class="overlay">
+                        <div class="text">Minions is a delightful chaos as these mischievous, yellow creatures embark on a zany adventure in search of the ultimate villain to serve.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/httyd.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">How to Train Your Dragon follows a young Viking who defies tradition, befriends a dragon, and unites their village, showcasing the power of friendship and understanding.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/batman.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">The Dark Knight faces a haunting new adversary while confronting his past, diving deep into the complexities of his alter ego's humanity and the burden of being a hero.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/spider.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Swings into a multiverse adventure where Miles Morales encounters new Spideys, blending stunning animation with a thrilling journey across dimensions, promising an electrifying sequel.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Comedy</h2>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/barbie.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Barbie explores a world of adventures, friendship, and imagination through animated tales starring the iconic doll, delivering colorful and inspiring stories for young audiences.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/clue.jpg" alt="Minions" class="image">
+                    <div class="overlay">
+                        <div class="text">Clueless navigates high school cliques and fashion in this '90s classic as a fashionable teen tries to play matchmaker, offering a witty and charming take on teenage life.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/mean.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Mean Girls delves into high school drama as a new student navigates the treacherous waters of teenage cliques and social hierarchy in a sharp, hilarious satire.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/niceguys.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">The Nice Guys pairs up a mismatched duo— a private eye and a muscle-for-hire— in a 1970s LA mystery filled with comedic banter and action-packed sleuthing.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/seventeen.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">17 Again follows a man who gets a second chance at his teenage years, offering a comedic yet heartwarming journey of rediscovery and the chance to rewrite his life's path.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Crime</h2>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/god.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">The Godfather unfolds the tale of a potent mafia dynasty, delving into power dynamics, loyalty, and the repercussions of underworld existence.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/goodfellas.jpg" alt="Minions" class="image">
+                    <div class="overlay">
+                        <div class="text">Goodfellas offers an unfiltered glimpse into the world of organized crime, tracing the ascent and downfall of a young mobster amid themes of camaraderie and betrayal.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/irish.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">The Irishman traces the life of a mob enforcer, contemplating themes of loyalty, remorse, and the passage of time against the backdrop of mob history.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/joker.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Joker delves into the genesis of the iconic Batman adversary, portraying a man's spiral into madness through a gritty, intense character exploration.</div>
+                    </div>
+                </div>
+                <div class="col-md-2 container">
+                    <img src="../images/movies/pulp.jpg" alt="Wall-E" class="image">
+                    <div class="overlay">
+                        <div class="text">Pulp Fiction interlaces tales of crime and redemption, presenting a nonlinear narrative rich with distinctive characters, compelling dialogue, and Tarantino's trademark flair.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    </main>
+</body>
+</html>
