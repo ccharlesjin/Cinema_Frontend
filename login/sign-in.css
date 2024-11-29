@@ -32,9 +32,12 @@ body {
 }
 
 .bgy{
-  background-color: #ffc107;
+  background-color: #fff;
 }
 
+.btn{
+  background-color: #363636;
+}
 
 /* FROM WEB */
 *{
@@ -101,3 +104,4 @@ section .air.air4{
     background-position-x: -1000px; 
   }
 }
+
